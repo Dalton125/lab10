@@ -26,16 +26,18 @@ drawpad.grid(row=0, column=1)
 
 # 70 point lab
 #house outline 
-rectangle1 = drawpad.create_rectangle(170,300,500,600)
+rectangle1 = drawpad.create_rectangle(170,300,500,600,fill = 'red')
 line1 = drawpad.create_line(170,300,350,150)
 line2 = drawpad.create_line(500,300,350,150)
 
 #80 point lab
 #windows 
-window1 = drawpad.create_rectangle(200,350,300,450)
-window2 = drawpad.create_rectangle(400,350,450,450)
+window1 = drawpad.create_rectangle(200,350,300,450,fill = 'blue')
+window2 = drawpad.create_rectangle(400,350,450,450,fill = 'blue')
+window3 = drawpad.create_rectangle(300,250,350,200,fill = 'blue')
+window4 = drawpad.create_rectangle(497,500,450,550,fill = 'blue')
 #door
-door = drawpad.create_rectangle(300,500,350,600)
+door = drawpad.create_rectangle(300,500,350,600,fill = 'brown')
 
 #90 point version
 #door handle
@@ -45,4 +47,8 @@ chimney1 = drawpad.create_line(390,190,390,150)
 chimney2 = drawpad.create_line(390,150,415,150)
 chimney3 = drawpad.create_line(415,150,415,215)
 
+#100 point lab
+#green grass
+grass1 = drawpad.create_rectangle(0,550,170,600,fill = 'green')
+grass2 = drawpad.create_rectangle(500,550,800,600,fill = 'green')
 root.mainloop()
