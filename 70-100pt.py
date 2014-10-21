@@ -29,5 +29,10 @@ rectangle1 = drawpad.create_rectangle(170,300,500,600)
 line1 = drawpad.create_line(170,300,350,150)
 line2 = drawpad.create_line(500,300,350,150)
 
+#windows 
+rectangle2 = drawpad.create_rectangle(200,350,300,450)
+rectangle3 = drawpad.create_rectangle(400,350,450,450)
+#door
+rectangle4 = drawpad.create_rectangle(300,500,350,600)
 
 root.mainloop()
